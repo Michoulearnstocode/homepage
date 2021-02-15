@@ -1,0 +1,163 @@
+body {
+  background-image: url("https://images.unsplash.com/photo-1598063183638-4ffe7c5f0f8d?ixlib=rb-1.2.1&amp;ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&amp");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  height: auto;
+  position: absolute;
+  background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	margin left: auto;
+	margin-right: auto;
+	padding: 0;
+  	border: 0;
+	color: lightseagreen;
+	font size: 200px;
+	font: roboto;
+}
+
+a.button1 {
+  clip: rect(0px,60px,200px,0px)
+  border:none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+ a.button2 {
+  clip: rect(0px,60px,200px,0px)
+  border:none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+a.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+a.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+a.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+a.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+h2 {
+	margin: 0;
+	padding: 0;
+  	border: 0;
+	color: black;
+	font size: 100px;
+	font: roboto;
+}
+
+#area {
+    position: absolute; 
+ 	visibility: visible; 
+ 	left: 20px; 
+ 	top: 200px; 
+ 	z-index: 200;
+	background-color: whitesmoke;
+    width: 400px;
+    height: 250px;
+    border: 3px solid #008b8b;
+    color: black;
+	font size: 200px;
+	font-family: Verdana;
+}
+
+#header {
+	margin: 0;
+	padding: 0;
+  	border: 10;
+	background-color: whitesmoke;
+    width: 2000px;
+    height: 75px;
+    border: 0px;
+}
+
+footer {
+	position: absolute; 
+    visibility: visible; 
+    left: 20px; 
+    top: 1000px; 
+	margin: 0;
+	padding: 0;
+  	border: 0;
+	color: black;
+	font size: 100px;
+	font: roboto;
+}
+
+#ImageClick {
+  position: absolute; 
+  visibility: visible; 
+  left: 20px; 
+  top: 550px; 
+  display: square;
+  height: 200px;
+  width: 400px;
+}
+
+#locator1 {
+  position: absolute; 
+  visibility: visible; 
+  left: 600px; 
+  top: 200px;
+  height: 100px; 
+  width: 200px; 
+  z-index: 600; 
+  display: square;
+  color: black;
+  font size: 100px;
+  font: roboto;
+}
+#locator2 {
+  position: absolute; 
+  visibility: visible; 
+  left: 800px; 
+  top: 200px;
+  height: 100px; 
+  width: 200px; 
+  z-index: 600; 
+  display: square;
+  color: black;
+  font size: 100px;
+  font: roboto;
+}
+
+#Video {
+  position: absolute; 
+  visibility: visible;
+  border: 1; 
+  left: 800px; 
+  top: 600px;
+}
