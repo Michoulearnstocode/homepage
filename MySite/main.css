@@ -11,13 +11,13 @@ body {
 h1 {
 	text-align: center;
 	margin: 0;
-	margin left: auto;
-	margin-right: auto;
+	margin left:0;
+	margin-right: 0;
 	padding: 0;
   	border: 0;
 	color: lightseagreen;
-	font size: 200px;
-	font: roboto;
+	font-size: 60px;
+	font-family: Verdana;
 }
 
 a.button1 {
@@ -73,31 +73,31 @@ a.button2:hover {
 h2 {
 	margin: 0;
 	padding: 0;
-  	border: 0;
+  border: 0;
 	color: black;
-	font size: 100px;
-	font: roboto;
+	font-size: 20px;
+	font-family: Verdana;
 }
 
 #area {
-    position: absolute; 
+  position: absolute; 
  	visibility: visible; 
  	left: 20px; 
  	top: 200px; 
- 	z-index: 200;
+ 	z-index: 0;
 	background-color: whitesmoke;
     width: 400px;
     height: 250px;
     border: 3px solid #008b8b;
     color: black;
-	font size: 200px;
+	font-size: 18px;
+  padding: 5px;
 	font-family: Verdana;
 }
 
 #header {
 	margin: 0;
 	padding: 0;
-  	border: 10;
 	background-color: whitesmoke;
     width: 2000px;
     height: 75px;
@@ -107,14 +107,14 @@ h2 {
 footer {
 	position: absolute; 
     visibility: visible; 
-    left: 20px; 
-    top: 1000px; 
+    left: 10px; 
+    top: 1500px; 
 	margin: 0;
 	padding: 0;
   	border: 0;
 	color: black;
-	font size: 100px;
-	font: roboto;
+	font-size: 20px;
+	font-family: Verdana;
 }
 
 #ImageClick {
@@ -130,28 +130,26 @@ footer {
 #locator1 {
   position: absolute; 
   visibility: visible; 
-  left: 600px; 
-  top: 200px;
-  height: 100px; 
-  width: 200px; 
+  left: 550px; 
+  top: 150px;
+  height: 200px; 
+  width: 400px; 
   z-index: 600; 
-  display: square;
   color: black;
-  font size: 100px;
-  font: roboto;
+  font-size: 25px;
+  font-family: Verdana;
 }
 #locator2 {
   position: absolute; 
   visibility: visible; 
-  left: 800px; 
-  top: 200px;
-  height: 100px; 
-  width: 200px; 
-  z-index: 600; 
-  display: square;
+  left: 1000px; 
+  top: 150px;
+  height: 200px; 
+  width: 400px; 
+  z-index: 600;
   color: black;
-  font size: 100px;
-  font: roboto;
+  font-size: 25px;
+  font-family: Verdana;
 }
 
 #Video {
@@ -159,5 +157,5 @@ footer {
   visibility: visible;
   border: 1; 
   left: 800px; 
-  top: 600px;
+  top: 800px;
 }
