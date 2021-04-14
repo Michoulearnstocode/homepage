@@ -647,8 +647,8 @@ h1 {
 .box {
  position: absolute;
   left: 15%;
-  top: 15%;
-  display: block;
+  top: auto;
+  display: inline-block;
   background: #F4A261; 
   border: 5px solid #E76F51;
   margin: 5px;
@@ -806,6 +806,48 @@ h1 {
 }
 
 @media only screen and (max-width: 600px){
+  #circle {
+  position: relative;  
+	background-color: #F4A261;
+	height: 200px;
+  width: 200px;
+  display: inline-block;
+  z-index: 1;
+	border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+	.box{
+  position: relative;
+	dispaly: block;
+	width: auto;
+	height: auto;
+  margin: auto;
+	}
+}
+
+@media only screen and (min-width: 900px){
+  #circle {
+  position: relative;  
+	background-color: #F4A261;
+	height: 200px;
+  width: 200px;
+  display: inline-block;
+  z-index: 1;
+	border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+	.box{
+  position: relative;
+	dispaly: block;
+	width: auto;
+	height: auto;
+  margin: auto;
+	}
+}
+
+@media only screen and (max-width:1000px){
   #circle {
   position: relative;  
 	background-color: #F4A261;
